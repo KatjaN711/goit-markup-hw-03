@@ -44,6 +44,7 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px;
 }
 .header-nav {
   display: flex;
@@ -100,7 +101,6 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
-  font-size: normal;
   color: #434455;
 }
 .address-link:hover,
@@ -116,7 +116,6 @@ button {
   background-color: #2e2f42;
   display: flex;
   height: 600px;
-  margin-bottom: 120px;
 }
 .container-hero {
   display: flex;
@@ -153,12 +152,15 @@ button {
 }
 /* #endregion */
 /* #region features */
+.features {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .features-list {
   display: flex;
   flex-direction: row;
   gap: 24px;
 }
-
 .features-item {
   width: 264px;
   height: 104px;
@@ -186,6 +188,10 @@ button {
 /* #region team */
 .team {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin-left: 156px;
+  margin-right: 156px;
 }
 .team-title {
   font-size: 36px;
@@ -195,14 +201,14 @@ button {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
-  margin-bottom: 72px;
-  margin-top: 120px;
+  /* margin-bottom: 72px;
+  margin-top: 120px; */
 }
 .team-list {
   display: flex;
   row-gap: 24px;
   justify-content: space-around;
-  margin-bottom: 120px;
+  /* margin-bottom: 120px; */
 }
 .team-item {
   width: 264px;
@@ -237,6 +243,9 @@ button {
 /* #region portfolio */
 .portfolio {
   background-color: #f4f4fd;
+  margin-right: 141px;
+  margin-left: 141px;
+  margin-bottom: 120px;
 }
 .portfolio-title {
   font-size: 36px;
@@ -246,13 +255,22 @@ button {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 60px;
 }
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  row-gap: 24px;
-  column-gap: 60px;
+  column-gap: 24px;
+  row-gap: 60px;
   background-color: #ffffff;
+}
+.portfolio-item {
+  /* width: calc((100%-48px) / 3); */
+  height: 420px;
+}
+.port-label {
+  display: flex;
+  flex-direction: column;
 }
 .picture-title {
   font-size: 20px;
@@ -260,16 +278,25 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-left: 16px;
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
 .portfolio-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-left: 16px;
+  margin-bottom: 32px;
 }
 /* #endregion */
 /* #region footer */
 .footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: #2e2f42;
+  height: 312px;
 }
 footer .logo {
   font-family: Raleway, sans-serif;
@@ -281,6 +308,10 @@ footer .logo {
   text-transform: uppercase;
   text-decoration: none;
 }
+.footer-cont {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
 footer .span-logo {
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -290,9 +321,12 @@ footer .span-logo {
   color: #f4f4fd;
 }
 .footer-text {
+  display: block;
+  width: 264px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  margin-top: 16px;
 }
 /* #endregion */
