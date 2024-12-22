@@ -30,27 +30,26 @@ p {
   padding-right: 15px;
   padding-left: 15px;
 }
-
 img {
   display: block;
 }
-
 button {
   cursor: pointer;
 }
 
 /* #region header */
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #e7e9fc;
 }
 .header-nav {
   display: flex;
   align-items: center;
 }
-
 .logo {
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -62,7 +61,6 @@ button {
   text-decoration: none;
   margin-right: 76px;
 }
-
 .span-logo {
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -87,6 +85,7 @@ button {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration: none;
+  padding: 24px 0;
 }
 .nav-item-link:hover,
 .nav-item-link:focus {
@@ -150,7 +149,7 @@ button {
   margin-right: auto;
   margin-left: auto;
   display: block;
-  max-width: 169px;
+  min-width: 169px;
   height: 56px;
   border: none;
   background-color: #4d5ae5;
@@ -244,7 +243,6 @@ button {
   align-items: center;
   padding: 32px 0;
 }
-
 .image-name {
   font-weight: 500;
   font-size: 20px;
@@ -258,6 +256,7 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 /* #endregion */
 /* #region portfolio */
@@ -294,6 +293,7 @@ button {
   flex-direction: column;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .picture-title {
   font-size: 20px;
