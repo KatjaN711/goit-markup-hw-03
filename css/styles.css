@@ -22,7 +22,6 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
-
 .container {
   width: 1158px;
   margin-right: auto;
@@ -36,7 +35,6 @@ img {
 button {
   cursor: pointer;
 }
-
 /* #region header */
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -50,7 +48,7 @@ button {
   display: flex;
   align-items: center;
 }
-.logo {
+.logo-header {
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -72,7 +70,6 @@ button {
 .nav-list {
   display: flex;
   gap: 40px;
-  margin-left: 76px;
 }
 .nav-item {
   padding-top: 24px;
@@ -210,8 +207,6 @@ button {
   background-color: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px;
-  margin-left: 156px;
-  margin-right: 156px;
 }
 .team-title {
   font-size: 36px;
@@ -229,12 +224,10 @@ button {
   justify-content: space-around;
 }
 .team-item {
-  width: 264px;
-  height: 380px;
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  /* box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08); */
   background: var(--white);
 }
 .team-member {
@@ -261,9 +254,6 @@ button {
 /* #endregion */
 /* #region portfolio */
 .portfolio {
-  background-color: #f4f4fd;
-  margin-right: 141px;
-  margin-left: 141px;
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -282,7 +272,6 @@ button {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  background-color: #ffffff;
 }
 .portfolio-item {
   width: calc((100% - 48px) / 3);
